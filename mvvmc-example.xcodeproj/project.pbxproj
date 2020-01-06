@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		A45DF63723BD3E28007B55C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45DF63623BD3E28007B55C1 /* AppDelegate.swift */; };
 		A45DF63923BD3E28007B55C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45DF63823BD3E28007B55C1 /* SceneDelegate.swift */; };
-		A45DF63B23BD3E28007B55C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45DF63A23BD3E28007B55C1 /* ViewController.swift */; };
-		A45DF63E23BD3E28007B55C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45DF63C23BD3E28007B55C1 /* Main.storyboard */; };
+		A45DF63B23BD3E28007B55C1 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45DF63A23BD3E28007B55C1 /* ChannelViewController.swift */; };
 		A45DF64123BD3E29007B55C1 /* mvvmc_example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A45DF63F23BD3E29007B55C1 /* mvvmc_example.xcdatamodeld */; };
 		A45DF64323BD3E2B007B55C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45DF64223BD3E2B007B55C1 /* Assets.xcassets */; };
 		A45DF64623BD3E2B007B55C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45DF64423BD3E2B007B55C1 /* LaunchScreen.storyboard */; };
 		A45DF65123BD3E2B007B55C1 /* mvvmc_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45DF65023BD3E2B007B55C1 /* mvvmc_exampleTests.swift */; };
 		A45DF65C23BD3E2B007B55C1 /* mvvmc_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45DF65B23BD3E2B007B55C1 /* mvvmc_exampleUITests.swift */; };
+		A45DF66C23BD4649007B55C1 /* ChannelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45DF66B23BD4649007B55C1 /* ChannelViewModel.swift */; };
+		A45DF67823BD4AD8007B55C1 /* ChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45DF67723BD4AD8007B55C1 /* ChannelModel.swift */; };
+		A46FE98123BD56180069F06C /* ChannelInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FE98023BD56180069F06C /* ChannelInteractor.swift */; };
+		A46FE98323BD62730069F06C /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FE98223BD62730069F06C /* RootCoordinator.swift */; };
+		A46FE98523BD628D0069F06C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FE98423BD628D0069F06C /* Coordinator.swift */; };
+		A46FE99223C24F8C0069F06C /* Post+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FE98E23C24F8C0069F06C /* Post+CoreDataClass.swift */; };
+		A46FE99323C24F8C0069F06C /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FE98F23C24F8C0069F06C /* Post+CoreDataProperties.swift */; };
+		A46FE99423C24F8C0069F06C /* Channel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FE99023C24F8C0069F06C /* Channel+CoreDataClass.swift */; };
+		A46FE99523C24F8C0069F06C /* Channel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FE99123C24F8C0069F06C /* Channel+CoreDataProperties.swift */; };
+		A47912F523C282180095DB85 /* AddedChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47912F423C282180095DB85 /* AddedChannelViewController.swift */; };
+		A47912F723C282A90095DB85 /* AddedChannelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47912F623C282A90095DB85 /* AddedChannelViewModel.swift */; };
+		A47912F923C283120095DB85 /* AddedChannelInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47912F823C283120095DB85 /* AddedChannelInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +50,7 @@
 		A45DF63323BD3E28007B55C1 /* mvvmc-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvvmc-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45DF63623BD3E28007B55C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A45DF63823BD3E28007B55C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A45DF63A23BD3E28007B55C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A45DF63D23BD3E28007B55C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A45DF63A23BD3E28007B55C1 /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
 		A45DF64023BD3E29007B55C1 /* mvvmc_example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mvvmc_example.xcdatamodel; sourceTree = "<group>"; };
 		A45DF64223BD3E2B007B55C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A45DF64523BD3E2B007B55C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,18 @@
 		A45DF65723BD3E2B007B55C1 /* mvvmc-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mvvmc-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45DF65B23BD3E2B007B55C1 /* mvvmc_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvmc_exampleUITests.swift; sourceTree = "<group>"; };
 		A45DF65D23BD3E2B007B55C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45DF66B23BD4649007B55C1 /* ChannelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewModel.swift; sourceTree = "<group>"; };
+		A45DF67723BD4AD8007B55C1 /* ChannelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelModel.swift; sourceTree = "<group>"; };
+		A46FE98023BD56180069F06C /* ChannelInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelInteractor.swift; sourceTree = "<group>"; };
+		A46FE98223BD62730069F06C /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		A46FE98423BD628D0069F06C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A46FE98E23C24F8C0069F06C /* Post+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A46FE98F23C24F8C0069F06C /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A46FE99023C24F8C0069F06C /* Channel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Channel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A46FE99123C24F8C0069F06C /* Channel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Channel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A47912F423C282180095DB85 /* AddedChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddedChannelViewController.swift; sourceTree = "<group>"; };
+		A47912F623C282A90095DB85 /* AddedChannelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddedChannelViewModel.swift; sourceTree = "<group>"; };
+		A47912F823C283120095DB85 /* AddedChannelInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddedChannelInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +123,11 @@
 		A45DF63523BD3E28007B55C1 /* mvvmc-example */ = {
 			isa = PBXGroup;
 			children = (
+				A47912EC23C281980095DB85 /* ChannelAddedScreen */,
+				A47912EB23C281730095DB85 /* AddChannelScreen */,
+				A45DF67523BD4ABA007B55C1 /* Core Data */,
 				A45DF63623BD3E28007B55C1 /* AppDelegate.swift */,
 				A45DF63823BD3E28007B55C1 /* SceneDelegate.swift */,
-				A45DF63A23BD3E28007B55C1 /* ViewController.swift */,
-				A45DF63C23BD3E28007B55C1 /* Main.storyboard */,
 				A45DF64223BD3E2B007B55C1 /* Assets.xcassets */,
 				A45DF64423BD3E2B007B55C1 /* LaunchScreen.storyboard */,
 				A45DF64723BD3E2B007B55C1 /* Info.plist */,
@@ -131,6 +154,120 @@
 			path = "mvvmc-exampleUITests";
 			sourceTree = "<group>";
 		};
+		A45DF66A23BD4628007B55C1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A45DF66B23BD4649007B55C1 /* ChannelViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A45DF67523BD4ABA007B55C1 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				A46FE98E23C24F8C0069F06C /* Post+CoreDataClass.swift */,
+				A46FE98F23C24F8C0069F06C /* Post+CoreDataProperties.swift */,
+				A46FE99023C24F8C0069F06C /* Channel+CoreDataClass.swift */,
+				A46FE99123C24F8C0069F06C /* Channel+CoreDataProperties.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		A45DF67623BD4AC8007B55C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A45DF67723BD4AD8007B55C1 /* ChannelModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A45DF67B23BD5352007B55C1 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				A46FE98023BD56180069F06C /* ChannelInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		A45DF67C23BD535A007B55C1 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				A46FE98223BD62730069F06C /* RootCoordinator.swift */,
+				A46FE98423BD628D0069F06C /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		A45DF67D23BD5361007B55C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A45DF63A23BD3E28007B55C1 /* ChannelViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A47912EB23C281730095DB85 /* AddChannelScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A45DF66A23BD4628007B55C1 /* ViewModels */,
+				A45DF67623BD4AC8007B55C1 /* Models */,
+				A45DF67B23BD5352007B55C1 /* Interactors */,
+				A45DF67C23BD535A007B55C1 /* Coordinators */,
+				A45DF67D23BD5361007B55C1 /* Views */,
+			);
+			path = AddChannelScreen;
+			sourceTree = "<group>";
+		};
+		A47912EC23C281980095DB85 /* ChannelAddedScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A47912F123C281C70095DB85 /* Model */,
+				A47912F023C281C10095DB85 /* Interactor */,
+				A47912EF23C281B70095DB85 /* Coordinator */,
+				A47912EE23C281B00095DB85 /* ViewModel */,
+				A47912ED23C281AA0095DB85 /* View */,
+			);
+			path = ChannelAddedScreen;
+			sourceTree = "<group>";
+		};
+		A47912ED23C281AA0095DB85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A47912F423C282180095DB85 /* AddedChannelViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A47912EE23C281B00095DB85 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A47912F623C282A90095DB85 /* AddedChannelViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A47912EF23C281B70095DB85 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A47912F023C281C10095DB85 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A47912F823C283120095DB85 /* AddedChannelInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A47912F123C281C70095DB85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,6 +278,7 @@
 				A45DF62F23BD3E28007B55C1 /* Sources */,
 				A45DF63023BD3E28007B55C1 /* Frameworks */,
 				A45DF63123BD3E28007B55C1 /* Resources */,
+				A45DF66923BD42D7007B55C1 /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -237,7 +375,6 @@
 			files = (
 				A45DF64623BD3E2B007B55C1 /* LaunchScreen.storyboard in Resources */,
 				A45DF64323BD3E2B007B55C1 /* Assets.xcassets in Resources */,
-				A45DF63E23BD3E28007B55C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,15 +394,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A45DF66923BD42D7007B55C1 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A45DF62F23BD3E28007B55C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45DF63B23BD3E28007B55C1 /* ViewController.swift in Sources */,
+				A46FE98523BD628D0069F06C /* Coordinator.swift in Sources */,
+				A45DF63B23BD3E28007B55C1 /* ChannelViewController.swift in Sources */,
+				A47912F523C282180095DB85 /* AddedChannelViewController.swift in Sources */,
+				A45DF67823BD4AD8007B55C1 /* ChannelModel.swift in Sources */,
+				A45DF66C23BD4649007B55C1 /* ChannelViewModel.swift in Sources */,
+				A47912F723C282A90095DB85 /* AddedChannelViewModel.swift in Sources */,
 				A45DF63723BD3E28007B55C1 /* AppDelegate.swift in Sources */,
+				A46FE98123BD56180069F06C /* ChannelInteractor.swift in Sources */,
 				A45DF64123BD3E29007B55C1 /* mvvmc_example.xcdatamodeld in Sources */,
+				A46FE99323C24F8C0069F06C /* Post+CoreDataProperties.swift in Sources */,
+				A46FE99223C24F8C0069F06C /* Post+CoreDataClass.swift in Sources */,
 				A45DF63923BD3E28007B55C1 /* SceneDelegate.swift in Sources */,
+				A46FE98323BD62730069F06C /* RootCoordinator.swift in Sources */,
+				A47912F923C283120095DB85 /* AddedChannelInteractor.swift in Sources */,
+				A46FE99423C24F8C0069F06C /* Channel+CoreDataClass.swift in Sources */,
+				A46FE99523C24F8C0069F06C /* Channel+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +471,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A45DF63C23BD3E28007B55C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A45DF63D23BD3E28007B55C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A45DF64423BD3E2B007B55C1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,6 +603,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L76X5KFZD9;
 				INFOPLIST_FILE = "mvvmc-example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +622,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L76X5KFZD9;
 				INFOPLIST_FILE = "mvvmc-example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

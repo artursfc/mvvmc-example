@@ -4,7 +4,8 @@
 //
 //  Created by Artur Carneiro on 01/01/20.
 //  Copyright © 2020 Artur Carneiro. All rights reserved.
-//
+// swiftlint:disable all
+
 
 import UIKit
 import CoreData
