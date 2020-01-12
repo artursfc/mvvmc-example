@@ -47,7 +47,7 @@ final class ChannelViewController: UIViewController, UITextFieldDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemGray
+        view.backgroundColor = .exemplo
         self.hideKeyboardOnTap()
         self.navigationItem.title = "Add Channel"
 

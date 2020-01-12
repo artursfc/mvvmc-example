@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A44726C923CBBF8E0052BA18 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44726C823CBBF8E0052BA18 /* UIColor+Extensions.swift */; };
 		A45DF63723BD3E28007B55C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45DF63623BD3E28007B55C1 /* AppDelegate.swift */; };
 		A45DF63923BD3E28007B55C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45DF63823BD3E28007B55C1 /* SceneDelegate.swift */; };
 		A45DF63B23BD3E28007B55C1 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45DF63A23BD3E28007B55C1 /* ChannelViewController.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A44726C823CBBF8E0052BA18 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		A45DF63323BD3E28007B55C1 /* mvvmc-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvvmc-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45DF63623BD3E28007B55C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A45DF63823BD3E28007B55C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				A45DF64423BD3E2B007B55C1 /* LaunchScreen.storyboard */,
 				A45DF64723BD3E2B007B55C1 /* Info.plist */,
 				A45DF63F23BD3E29007B55C1 /* mvvmc_example.xcdatamodeld */,
+				A44726C823CBBF8E0052BA18 /* UIColor+Extensions.swift */,
 			);
 			path = "mvvmc-example";
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 				A46FE98323BD62730069F06C /* RootCoordinator.swift in Sources */,
 				A47912F923C283120095DB85 /* AddedChannelInteractor.swift in Sources */,
 				A46FE99423C24F8C0069F06C /* Channel+CoreDataClass.swift in Sources */,
+				A44726C923CBBF8E0052BA18 /* UIColor+Extensions.swift in Sources */,
 				A46FE99523C24F8C0069F06C /* Channel+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
